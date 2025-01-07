@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+sexo = input("Digite seu sexo (M/F): ").upper()
+altura = float(input("Digite sua altura (em metros): "))
+print(f"Ola {nome}! Você tem {idade} anos, é do sexo {sexo} e tem {altura:.2f} metros.")
