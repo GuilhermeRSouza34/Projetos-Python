@@ -4,7 +4,7 @@
 nota = input("Digite a nota do aluno: ")
 if float(nota) >= 7:
     print("Aprovado")
-elif float(nota) < 7 or float(nota) > 3:
+elif float(nota) > 3 and float(nota) > 7:
     print("Recuperação")
 else:
     print("Reprovado")
