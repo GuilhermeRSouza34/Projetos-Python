@@ -1,8 +1,8 @@
 # Exercício 3: Manipulando Listas
-#1 - Crie uma lista com 5 números.
-#2 - Adicione dois números à lista.
-#3 - Remova o terceiro número.
-#4 - Ordene a lista em ordem decrescente.
+# 1 - Crie uma lista com 5 números.
+# 2 - Adicione dois números à lista.
+# 3 - Remova o terceiro número.
+# 4 - Ordene a lista em ordem decrescente.
 
 
 numeros = [1, 2, 3, 4, 5]
