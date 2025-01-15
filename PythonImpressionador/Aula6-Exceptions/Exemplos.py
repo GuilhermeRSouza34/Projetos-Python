@@ -20,3 +20,15 @@ except ValueError:
     print("Erro: Você precisa digitar um número.")
 except ZeroDivisionError:
     print("Erro: Não é possível dividir por zero.")
+
+
+#Utilizando blocos else e finally
+try:
+    numero3 = int(input("Digite um número: "))
+    print(f"Você digitou {numero3}")
+except ValueError:
+    print("Erro: Entrada inválida.")
+else:
+    print("Nenhum erro ocorreu.")
+finally:
+    print("Fim do programa!")
