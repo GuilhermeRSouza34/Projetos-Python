@@ -9,3 +9,14 @@ try:
 except ValueError:
     # Código executado se o erro ocorrer
     print("Você não digitou um número válido!")
+
+
+#Lidando com multiplos exceções
+try:
+    numero2 = int(input("Digite um número: "))
+    resultado2 = 10 / numero2
+    print(f"Resultado: {resultado2}")
+except ValueError:
+    print("Erro: Você precisa digitar um número.")
+except ZeroDivisionError:
+    print("Erro: Não é possível dividir por zero.")
