@@ -32,3 +32,16 @@ else:
     print("Nenhum erro ocorreu.")
 finally:
     print("Fim do programa!")
+
+
+#Utilizando o raise para lançar uma exceção personalizada
+def verifica_idade(idade):
+    if idade < 18:
+        raise ValueError("Você deve ser maior de idade!")
+    print("Entrada válida.")
+
+try:
+    idade = int(input("Digite sua idade: "))
+    verifica_idade(idade)
+except ValueError as e:
+    print(f"Erro: {e}")
